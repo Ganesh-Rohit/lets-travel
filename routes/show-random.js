@@ -13,6 +13,5 @@ router.get('/', async (req,resp)=>{
         date: post.date,
         cost:post.cost,
         text: post.text})
-
 })
 module.exports = router;
